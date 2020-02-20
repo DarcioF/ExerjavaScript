@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    const usuario = {nome:'ana',idade:18};
+    function mostrarIdade(usuario){
+        return usuario.idade;
+    }
+    console.log(mostrarIdade(usuario))
+
+    const mostrarIdade2 = usuario => usuario.idade;
+    console.log(mostrarIdade2(usuario))
+    </script>
+</body>
+</html>

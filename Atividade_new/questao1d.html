@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    const usuarios =[
+        
+        { nome:'pedro',idade: 18, escola: 'ifpi'},
+        { nome:'ana',idade: 22, escola: 'ifpi'},
+        {nome:'lia',idade: 15, escola: 'ibc'},
+     
+ ]
+    
+ const mulidade = usuarios.map(function(item){
+            return item.idade*2;
+    });
+    const filtro = mulidade.filter(function(item){
+                if(item<=40){
+                    return item;
+                };
+        });
+console.log(filtro)
+    </script>
+</body>
+</html>
